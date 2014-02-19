@@ -1,0 +1,27 @@
+{
+  "name": "notification",
+  "repo": "heatroom/notification",
+  "description": "growl-style notifications for the browser",
+  "version": "0.0.1",
+  "keywords": [
+    "notify",
+    "notification",
+    "ui",
+    "growl"
+  ],
+  "dependencies": {
+    "component/jquery": "*",
+    "component/emitter": "1.0.1",
+    "segmentio/on-body": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "notification.css"
+  ]
+}
